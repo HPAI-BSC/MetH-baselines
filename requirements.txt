@@ -1,0 +1,10 @@
+numpy==1.17.4
+pandas==0.25.1
+Pillow==6.2.1
+protobuf==3.11.0
+python-dateutil==2.8.1
+pytz==2019.3
+six==1.13.0
+tensorboardX==1.2
+torch==1.1.0
+torchvision==0.2.1
