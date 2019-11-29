@@ -26,6 +26,9 @@ class Saver:
         return mapping_dict
 
     def map_keys(self, state_dict):
+        """Remove 'module' from keys when model has been stored using DataParallel"""
+        if 'module' not in state_dict.key()[0]:
+            return state_dict
         mapping_dict = self.get_mapping_key(state_dict)
         all_keys = list(state_dict.keys())
         for key in all_keys:
