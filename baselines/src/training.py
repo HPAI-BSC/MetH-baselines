@@ -1,7 +1,6 @@
 import time
 import torch
 import torchvision.models as models
-from baselines.src.models import ReducedVgg16
 from baselines.utils.consts import Split
 from baselines.src.datasets import ClassificationDataset, RegressionDataset
 from baselines.src.input import InputPipeline
