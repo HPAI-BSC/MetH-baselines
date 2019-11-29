@@ -2,7 +2,7 @@
 
 This repository contains the code for replicating the baselines of the [MetH-datasets paper](https://arxiv.org/abs/1911.08953).
 
-This code runs with Python 3.7.2. Its python packages requirements will be included soon in a `requirements.txt` file.
+This code runs with Python 3.7.2. Check the python dependencies in the `requirements.txt` file.
 
 ## How to run the baselines
 First of all, we have to download the dataset that we aim to use. Downloading scripts are located in the [download_data](https://github.com/HPAI-BSC/MetH-baselines/tree/master/download_data) module. If we plan to use the MetH-Medium dataset, for example, go to terminal and run the corresponding script like following:
